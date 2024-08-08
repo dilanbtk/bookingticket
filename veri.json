@@ -1,0 +1,77 @@
+{
+  "company": {
+    "1": {
+      "companyName": "Sky Airlines"
+    }
+  },
+  "airplane": {
+    "1": {
+      "companyId": "1",
+      "brand": "Boeing",
+      "model": "737",
+      "capacity": 150,
+      "status": "Active"
+    },
+    "2": {
+      "companyId": "1",
+      "brand": "Airbus",
+      "model": "A320",
+      "capacity": 180,
+      "status": "Active"
+    }
+  },
+  "airplaneSeat": {
+    "1": {
+      "airplaneId": "1",
+      "seatCode": "12A",
+      "seatNumber": "12A",
+      "availabilityStatus": "Empty"
+    },
+    "2": {
+      "airplaneId": "1",
+      "seatCode": "12B",
+      "seatNumber": "12B",
+      "availabilityStatus": "Occupied"
+    },
+    "3": {
+      "airplaneId": "2",
+      "seatCode": "10A",
+      "seatNumber": "10A",
+      "availabilityStatus": "Empty"
+    },
+    "4": {
+      "airplaneId": "2",
+      "seatCode": "10B",
+      "seatNumber": "10B",
+      "availabilityStatus": "Empty"
+    }
+  },
+  "flight": {
+    "1": {
+      "airplaneId": "1",
+      "from": "Istanbul",
+      "to": "Ankara",
+      "companyId": "1",
+      "date": "2024-08-10",
+      "time": "10:00"
+    },
+    "2": {
+      "airplaneId": "2",
+      "from": "Izmir",
+      "to": "Antalya",
+      "companyId": "1",
+      "date": "2024-08-11",
+      "time": "15:00"
+    }
+  },
+  "reservation": {
+    "1": {
+      "flightId": "1",
+      "airplaneSeatId": "1"
+    },
+    "2": {
+      "flightId": "2",
+      "airplaneSeatId": "4"
+    }
+  }
+}
